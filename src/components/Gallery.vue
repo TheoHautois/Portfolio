@@ -35,9 +35,9 @@ import { ref, type Ref } from 'vue';
 <template>
     <h4>Images :</h4>
     <div class="container">
-        <img src="@/assets/buttons/leftArrow.svg" alt="" @click = "previousImage" class = "arrow">
+        <img src="../assets/buttons/leftArrow.svg" alt="" @click = "previousImage" class = "arrow">
         <img :src="currentImage" alt="image" class="image">
-        <img src="@/assets/buttons/rightArrow.svg" alt="" @click = "nextImage" class = "arrow">
+        <img src="../assets/buttons/rightArrow.svg" alt="" @click = "nextImage" class = "arrow">
     </div>
 
     <span>{{ currentIndex + 1 }} / {{ props.images.length }}</span>

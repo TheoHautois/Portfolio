@@ -4,18 +4,18 @@ import Gallery from '../components/Gallery.vue';
     // Gallies
 
     let boomBallImages:Array<string> = [
-        "/src/assets/galleries/boomBall/boomBall-4.png",
-        "/src/assets/galleries/boomBall/boomBall-2.png",
-        "/src/assets/galleries/boomBall/boomBall-3.png",
-        "/src/assets/galleries/boomBall/boomBall-1.png",
-        "/src/assets/game-bg/boom-ball-bg.png"
+        "/Portfolio/src/assets/galleries/boomBall/boomBall-4.png",
+        "/Portfolio/src/assets/galleries/boomBall/boomBall-2.png",
+        "/Portfolio/src/assets/galleries/boomBall/boomBall-3.png",
+        "/Portfolio/src/assets/galleries/boomBall/boomBall-1.png",
+        "/Portfolio/src/assets/game-bg/boom-ball-bg.png"
     ]
 
     let tankYouImages:Array<string> = [
-        "/src/assets/galleries/tankYou/tankYou-1.png",
-        "/src/assets/galleries/tankYou/tankYou-2.png",
-        "/src/assets/galleries/tankYou/tankYou-3.png",
-        "/src/assets/game-bg/tank-you-bg.png"
+        "/Portfolio/src/assets/galleries/tankYou/tankYou-1.png",
+        "/Portfolio/src/assets/galleries/tankYou/tankYou-2.png",
+        "/Portfolio/src/assets/galleries/tankYou/tankYou-3.png",
+        "/Portfolio/src/assets/game-bg/tank-you-bg.png"
     ]
 
 </script>
