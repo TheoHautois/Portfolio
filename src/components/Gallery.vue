@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
+import { computed, ref, type Ref } from 'vue';
 
 
     const props = defineProps({
         images: {type : Array<string>, required : true}
     });
-
 
     let currentIndex:number = 0;
     let currentImage:Ref<string> = ref(props.images[currentIndex]);
@@ -29,7 +28,6 @@ import { ref, type Ref } from 'vue';
         currentImage.value = props.images[currentIndex];
         console.log(currentImage.value);
     }
-
 </script>
 
 <template>

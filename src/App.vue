@@ -15,23 +15,23 @@ import HelloWorld from './components/HelloWorld.vue'
             <span class = "btn-title">Jeux vidéo</span>
         </RouterLink>
 
-        <RouterLink to="/games" class="button-square">
+        <RouterLink to="/vr" class="button-square">
             <img src="./assets/icones/ico-vr.svg" alt="Icon 1" class="icon">
-            <span class = "btn-title">Réalité virtuelle</span>
+            <span class = "btn-title">Réalité virtuelle / augmentée</span>
         </RouterLink>
 
-        <RouterLink to="/games" class="button-square">
+        <RouterLink to="/music" class="button-square">
             <img src="./assets/icones/ico-music.svg" alt="Icon 2" class="icon">
             <span class = "btn-title">Musique</span>
         </RouterLink>
 
-        <RouterLink to="/games" class="button-square">
+        <RouterLink to="/3d" class="button-square">
             <img src="./assets/icones/ico-cube.svg" alt="Icon 2" class="icon">
             <span class = "btn-title">Modélisation 3D</span>
         </RouterLink>
 
-        <RouterLink to="/games" class="button-square">
-            <img src="./assets/icones/ico-other.svg" alt="Icon 2" class="icon">
+        <RouterLink to="/other" class="button-square">
+            <img src="./assets/icones/ico-dots.svg" alt="Icon 2" class="icon">
             <span class = "btn-title">Autre</span>
         </RouterLink>
     </div>
@@ -49,7 +49,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 .h-line{
   border-bottom: solid 1px white;
-  margin:50px;
+  margin-left:50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -68,10 +71,10 @@ import HelloWorld from './components/HelloWorld.vue'
     justify-content: flex-start;
     width: 15vw;
     height: 15vw;
-    max-height: 200px;
-    max-width: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    max-height: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 150px;
     background-color: #050202; /* Couleur de fond */
     border: 1px solid #ccc; /* Bordure */
     border-radius: 8px; /* Coins arrondis */
@@ -93,6 +96,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 .btn-title {
   margin-top: auto;
+  text-align: center;
 }
 
 .categorie{

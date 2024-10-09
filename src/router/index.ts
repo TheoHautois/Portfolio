@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory , createWebHashHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
@@ -26,8 +26,29 @@ const router = createRouter({
       path: '/games',
       name: 'games',
       component: () => import('../views/GamesView.vue')
-    }
-    
+    },
+    {
+      path: '/vr',
+      name: 'vr',
+      component: () => import('../views/VRView.vue')
+    },
+    {
+      path: '/music',
+      name: 'music',
+      component: () => import('../views/WIPView.vue')
+    },
+    {
+      path: '/3d',
+      name: '3d',
+      component: () => import('../views/3DView.vue')
+    },
+    {
+      path: '/other',
+      name: 'other',
+      component: () => import('../views/WIPView.vue')
+    },
+
+
   ]
 })
 

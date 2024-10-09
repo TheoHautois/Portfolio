@@ -3,34 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <h2 class="categorie">A propos de moi</h2>
-  <h2 class="categorie">Mes projets</h2>
-    <div class="button-container">
-        <RouterLink to="/games" class="button-square">
-            <img src="../assets/icones/ico-gamepad.svg" alt="Icon 2" class="icon">
-            <span class = "btn-title">Jeux vidéo</span>
-        </RouterLink>
 
-        <RouterLink to="/games" class="button-square">
-            <img src="../assets/icones/ico-vr.svg" alt="Icon 1" class="icon">
-            <span class = "btn-title">Réalité virtuelle</span>
-        </RouterLink>
-
-        <RouterLink to="/games" class="button-square">
-            <img src="../assets/icones/ico-music.svg" alt="Icon 2" class="icon">
-            <span class = "btn-title">Musique</span>
-        </RouterLink>
-
-        <RouterLink to="/games" class="button-square">
-            <img src="../assets/icones/ico-cube.svg" alt="Icon 2" class="icon">
-            <span class = "btn-title">Modélisation 3D</span>
-        </RouterLink>
-
-        <RouterLink to="/games" class="button-square">
-            <img src="../assets/icones/ico-other.svg" alt="Icon 2" class="icon">
-            <span class = "btn-title">Autre</span>
-        </RouterLink>
-    </div>
 </template>
 <style>
 
