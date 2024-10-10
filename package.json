@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "copy": "xcopy /E /I src\\assets\\models dist\\assets\\models",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "to-git": "npm run build && npm run copy && npm run deploy"
   },
   "dependencies": {
     "three": "^0.169.0",
