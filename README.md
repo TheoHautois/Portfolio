@@ -1,33 +1,10 @@
-# portfolio
+# Portfolio de Hautois Théo
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+Vous vous trouvez actuellement sur le dépôt Git de mon portfolio. La page se trouve à l'adresse : https://theohautois.github.io/Portfolio/#/
 
-## Recommended IDE Setup
+Toutes les ressources se trouvant ici (à l'exception des images .svg) m'appartiennent. Merci de ne pas les utiliser sans mon autorisation. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+Cela inclut :
+  - Les modèles 3D (.glb)
+  - Les images (sauf .svg)
